@@ -22,8 +22,4 @@
       <ProjectReference Include="..\Ticketing.Auth.Infrastructure\Ticketing.Auth.Infrastructure.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
 </Project>
