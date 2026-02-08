@@ -30,6 +30,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Observability", "src\BuildingBlocks\Ticketing.BuildingBlocks.Observability\Ticketing.BuildingBlocks.Observability.csproj", "{EEE66613-A033-4BE2-BA3E-263F00818D05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Auth.UnitTests", "tests\Ticketing.Auth.UnitTests\Ticketing.Auth.UnitTests.csproj", "{C698C388-8486-43FF-8A96-2BEBE7C061D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Sales.UnitTests", "tests\Ticketing.Sales.UnitTests\Ticketing.Sales.UnitTests.csproj", "{5729B5F2-782E-47BB-8D96-14D46B89DC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.IntegrationTests", "tests\Ticketing.IntegrationTests\Ticketing.IntegrationTests.csproj", "{FB33BD1F-BDC3-465F-B25C-26CA79B9E3C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +102,17 @@ Global
 		{EEE66613-A033-4BE2-BA3E-263F00818D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE66613-A033-4BE2-BA3E-263F00818D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE66613-A033-4BE2-BA3E-263F00818D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C698C388-8486-43FF-8A96-2BEBE7C061D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C698C388-8486-43FF-8A96-2BEBE7C061D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C698C388-8486-43FF-8A96-2BEBE7C061D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C698C388-8486-43FF-8A96-2BEBE7C061D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5729B5F2-782E-47BB-8D96-14D46B89DC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5729B5F2-782E-47BB-8D96-14D46B89DC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5729B5F2-782E-47BB-8D96-14D46B89DC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5729B5F2-782E-47BB-8D96-14D46B89DC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB33BD1F-BDC3-465F-B25C-26CA79B9E3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB33BD1F-BDC3-465F-B25C-26CA79B9E3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB33BD1F-BDC3-465F-B25C-26CA79B9E3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB33BD1F-BDC3-465F-B25C-26CA79B9E3C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
