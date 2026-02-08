@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\BuildingBlocks\Ticketing.BuildingBlocks.Common\Ticketing.BuildingBlocks.Common.csproj" />
+    </ItemGroup>
+
 </Project>
