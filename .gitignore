@@ -1,0 +1,101 @@
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+Thumbs.db
+
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+*.sln.iml
+
+# =========================
+# Build outputs
+# =========================
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+*.dll
+*.pdb
+
+# =========================
+# NuGet
+# =========================
+**/packages/
+.nuget/
+*.nupkg
+*.snupkg
+project.lock.json
+
+# =========================
+# Logs
+# =========================
+**/logs/
+**/*.log
+
+# =========================
+# User secrets / local settings
+# =========================
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+**/*.secrets.json
+
+# =========================
+# Certificates
+# =========================
+*.pfx
+*.p12
+*.pem
+*.crt
+*.key
+
+# =========================
+# Docker (local volumes)
+# =========================
+**/docker-data/
+**/.docker/
+**/volumes/
+**/postgres-data/
+**/pgdata/
+**/rabbitmq-data/
+**/redis-data/
+
+# =========================
+# EF Core
+# =========================
+**/Migrations/*.Designer.cs
+# Обычно миграции коммитят. Если хочешь коммитить - УДАЛИ 2 строки ниже:
+# **/Migrations/
+# **/*.db
+
+# SQLite (если вдруг локально)
+*.db
+*.db-shm
+*.db-wal
+
+# =========================
+# Coverage
+# =========================
+coverage/
+**/coverage.*
+**/*.coverage
+**/*.coveragexml
+
+# =========================
+# Node
+# =========================
+node_modules/
+
+# =========================
+# Misc
+# =========================
+*.cache
+*.tmp
