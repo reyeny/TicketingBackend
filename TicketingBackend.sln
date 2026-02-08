@@ -22,13 +22,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Sales.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Sales.Contracts", "src\Services\Sales\Ticketing.Sales.Contracts\Ticketing.Sales.Contracts.csproj", "{CB7EC288-F748-4E67-A986-53FF2945BD86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Common", "src\Services\BuildingBlocks\Ticketing.BuildingBlocks.Common\Ticketing.BuildingBlocks.Common.csproj", "{167BE192-7235-4EFB-BCA9-9AE8A8CBE810}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Common", "src\BuildingBlocks\Ticketing.BuildingBlocks.Common\Ticketing.BuildingBlocks.Common.csproj", "{167BE192-7235-4EFB-BCA9-9AE8A8CBE810}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Messaging", "src\Services\BuildingBlocks\Ticketing.BuildingBlocks.Messaging\Ticketing.BuildingBlocks.Messaging.csproj", "{12F988BA-FD9B-49BD-B77D-B6AC2404790B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Messaging", "src\BuildingBlocks\Ticketing.BuildingBlocks.Messaging\Ticketing.BuildingBlocks.Messaging.csproj", "{12F988BA-FD9B-49BD-B77D-B6AC2404790B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Security", "src\Services\BuildingBlocks\Ticketing.BuildingBlocks.Security\Ticketing.BuildingBlocks.Security.csproj", "{2C0E0691-E090-4900-9D0C-5774BEF24D35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Security", "src\BuildingBlocks\Ticketing.BuildingBlocks.Security\Ticketing.BuildingBlocks.Security.csproj", "{2C0E0691-E090-4900-9D0C-5774BEF24D35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Observability", "src\Services\BuildingBlocks\Ticketing.BuildingBlocks.Observability\Ticketing.BuildingBlocks.Observability.csproj", "{EEE66613-A033-4BE2-BA3E-263F00818D05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.BuildingBlocks.Observability", "src\BuildingBlocks\Ticketing.BuildingBlocks.Observability\Ticketing.BuildingBlocks.Observability.csproj", "{EEE66613-A033-4BE2-BA3E-263F00818D05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
