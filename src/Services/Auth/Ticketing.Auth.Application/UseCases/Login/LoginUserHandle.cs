@@ -10,7 +10,7 @@ public sealed class LoginUserHandle(IUserRepository users, IPasswordHasher hashe
     {
         var email = req.Email.Trim().ToLowerInvariant();
         var user = await users.FindByEmailAsync(email, ct);
-        if (user is not null || !hasher.VerifyHashedPassword(req.Password, user!.PasswordHash))
+        if (user is null || !hasher.VerifyHashedPassword(req.Password, user!.PasswordHash))
             throw new InvalidOperationException("Invalid credentials");
 
         var token = tokens.CreateAccessToken(user.Id, email);
