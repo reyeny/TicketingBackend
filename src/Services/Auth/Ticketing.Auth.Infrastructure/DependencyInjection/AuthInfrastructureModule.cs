@@ -11,8 +11,7 @@ namespace Ticketing.Auth.Infrastructure.DependencyInjection;
 
 public static class AuthInfrastructureModule
 {
-    public static IServiceCollection AddAuthInfrastructure(
-        this IServiceCollection services,
+    public static void AddAuthInfrastructure(this IServiceCollection services,
         IConfiguration configuration)
     {
         var cs = configuration.GetConnectionString("AuthDb");
@@ -23,7 +22,5 @@ public static class AuthInfrastructureModule
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddSingleton<IPasswordHasher, PasswordHasher>();
         services.AddScoped<ITokenService, JwtTokenService>();
-
-        return services;
     }
 }
