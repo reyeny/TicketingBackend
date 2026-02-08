@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketingBackend", "TicketingBackend\TicketingBackend.csproj", "{79436B45-AEDB-4BCA-B471-9E6B256763FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Gateway.Api", "src\Gateway\Ticketing.Gateway.Api\Ticketing.Gateway.Api.csproj", "{6445A011-2BB9-452D-932E-02BF86C1294B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{79436B45-AEDB-4BCA-B471-9E6B256763FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79436B45-AEDB-4BCA-B471-9E6B256763FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79436B45-AEDB-4BCA-B471-9E6B256763FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6445A011-2BB9-452D-932E-02BF86C1294B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6445A011-2BB9-452D-932E-02BF86C1294B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6445A011-2BB9-452D-932E-02BF86C1294B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6445A011-2BB9-452D-932E-02BF86C1294B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
