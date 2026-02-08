@@ -1,6 +1,0 @@
-@Ticketing.Auth.Api_HostAddress = http://localhost:5031
-
-GET {{Ticketing.Auth.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
